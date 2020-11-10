@@ -3,6 +3,9 @@
 #############################################
 
 #EXERCICE 8
+# Définir 2 variables : 1 contenant un age en nombre et l'autre contenant votre prénom. 
+# Créez une troisième variable qui devra contenir la phrase suivante : "Je suis [NOM] et j'ai [AGE] ans."
+# Enfin, afficher cette dernière variable
 
 # age = 22
 # prenom = "nicola"
@@ -231,6 +234,9 @@
 ############## LES BOUCLES ##################
 #############################################
 
+# EXERCICE 1 
+# créez une boucle for qui affiche les numéros de 0 à 5
+
 # for compt in range(0, 6):
 #    print(compt)
 
@@ -238,6 +244,9 @@
 # for compt in (v):
 #     print(compt + "*")
 
+##EXERCICE 3
+# Soit la variable x = "anticonstitutionnellement". 
+# A l'aide d'une boucle for, afficher les lettres présentes dans x.
 
 # for test in v:
 #     print("longueur de la chaine", test, '=', len(test))
@@ -248,6 +257,10 @@
 
 # for compt2 in (AntiC):
 #     print(compt2 + "*")
+
+# EXERCICE 10 
+#  Grâce à la liste suivante : ordi = ["apple", "asus", "dell", "samsung"], 
+# utilisez la boucle While pour afficher toutes les marques d'ordinateur
 
 # P = "Apple"
 # F = "Asus"
@@ -353,11 +366,7 @@
 # u = 0
 # n = random.randint(1, 100)
 
-# print(list2)
-# print(a)
-
 # list2 = [n]
-# print(list2)
 
 # while a < n :
 #   b = random.randint(0, n+1)
@@ -366,10 +375,13 @@
 
 
 # def nombres(list2):
+
 #   for i in range (0, len(list2)):
-#       if list2[i] % 2 == 0:
-#           print(list2[i])
-#       else:
+
+#     if list2[i] % 2 == 0:
+#       print(list2[i])
+#     else:
+#       break
 # nombres(list2)
 
 # print(b)
@@ -377,4 +389,47 @@
       
 # def paires (list2):
 #     paires (list2)
+
+
+# def mult(nb):
+#     print(nb*5)
+# print("Quel est votre nombre?")
+# a=int(input())
+# mult(a)
+
+
+# def nbp(nb):
+#     if(nb%2==0):
+#         print("pair")
+#     else:
+#         print("pas pair")
+# nbp(8)
+
+
+# s1=1
+# s2=1
+# s3=0
+# while s3<50:
+#     s3=s1+s2
+#     s1=s2
+#     s2=s3
+#     print(s2)
+
+
+
+# mot=input("Entrer un mot : ")
+# liste_voyelles=["a","e","i","o","u","y"]
+# nb_voyelles = 0  
+# for lettre in mot : 
+#         if lettre in liste_voyelles :
+#             nb_voyelles+=1
+# print(nb_voyelles)
+
+
+# nbr = int(input('Entrez un nombre : '))
+# fact = 1
+# for i in range(1, nbr+1):
+#   fact = fact * i
+# print (nbr,'! = ',fact)
+
 
